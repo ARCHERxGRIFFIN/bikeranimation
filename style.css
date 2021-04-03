@@ -1,0 +1,57 @@
+.mybiker{
+    text-align: center;
+}
+@keyframes vihaan {
+    from{transform: rotate(0deg);
+    }
+    to{transform: rotate(360deg)
+}
+}
+#backwheel{
+    animation: vihaan 1s linear infinite;
+    transform-box: fill-box;
+    transform-origin: center;
+}
+
+#frontwheel{
+    animation: vihaan 1s linear infinite;
+    transform-box: fill-box;
+    transform-origin: center;
+}
+@keyframes xyz{
+    from{transform: rotateX(0deg);
+    }
+    to{transform: rotateX(20deg)
+}
+
+
+}
+#biker{
+    animation: xyz 1s linear infinite alternate;
+    transform-box: fill-box;
+    transform-origin: bottom;
+}
+@keyframes abc{
+    from{transform: translateY(0px);
+    }
+    to{transform: translateY(20px)
+}
+
+
+}
+#cap{
+    animation: abc 1s ease infinite alternate;
+
+}
+@keyframes rtx{
+    from{transform:translateY(0px);
+    }
+    to{transform: translateY(20px)
+}
+
+
+}
+#background{
+    animation: rtx 1s linear infinite alternate;
+    
+}
